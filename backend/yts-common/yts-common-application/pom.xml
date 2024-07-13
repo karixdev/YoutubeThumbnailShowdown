@@ -5,24 +5,32 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.karixdev</groupId>
-        <artifactId>youtube-thumbnail-showdown</artifactId>
+        <artifactId>yts-common</artifactId>
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>yts-common</artifactId>
+    <artifactId>yts-common-application</artifactId>
     <version>1.0.0</version>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>yts-common-domain</module>
-        <module>yts-common-application</module>
-        <module>yts-common-api</module>
-    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <yts-common-api.version>1.0.0</yts-common-api.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.karixdev</groupId>
+            <artifactId>yts-common-api</artifactId>
+            <version>${yts-common-api.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
