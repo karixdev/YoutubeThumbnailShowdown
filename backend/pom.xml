@@ -18,6 +18,9 @@
 
     <modules>
         <module>yts-common</module>
+        <module>yts-youtube</module>
+        <module>yts-youtube/yts-youtube-api</module>
+        <module>yts-youtube/yts-youtube-application</module>
     </modules>
 
     <properties>

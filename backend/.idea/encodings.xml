@@ -8,5 +8,8 @@
     <file url="file://$PROJECT_DIR$/yts-common/yts-common-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yts-common/yts-common-application/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yts-common/yts-common-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yts-youtube/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yts-youtube/yts-youtube-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yts-youtube/yts-youtube-application/src/main/java" charset="UTF-8" />
   </component>
 </project>

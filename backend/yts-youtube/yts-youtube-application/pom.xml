@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.karixdev</groupId>
+        <artifactId>youtube-thumbnail-showdown</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>yts-youtube-application</artifactId>
+    <version>1.0.0</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <yts-common-application.version>1.0.0</yts-common-application.version>
+        <yts-youtube-api.version>1.0.0</yts-youtube-api.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.karixdev</groupId>
+            <artifactId>yts-common-application</artifactId>
+            <version>${yts-common-application.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.karixdev</groupId>
+            <artifactId>yts-youtube-api</artifactId>
+            <version>${yts-youtube-api.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
