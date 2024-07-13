@@ -9,7 +9,7 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>ys-common-domain</artifactId>
+    <artifactId>yts-common-domain</artifactId>
     <version>1.0.0</version>
 
     <properties>

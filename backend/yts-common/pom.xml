@@ -12,8 +12,9 @@
     <artifactId>yts-common</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
+
     <modules>
-        <module>ys-common-domain</module>
+        <module>yts-common-domain</module>
     </modules>
 
     <properties>
