@@ -16,16 +16,6 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-        <yts-common-domain.version>1.0.0</yts-common-domain.version>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.karixdev</groupId>
-            <artifactId>yts-common-domain</artifactId>
-            <version>${yts-common-domain.version}</version>
-        </dependency>
-    </dependencies>
 
 </project>
